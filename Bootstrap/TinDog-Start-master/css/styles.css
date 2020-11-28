@@ -1,0 +1,157 @@
+/*tag selectors*/
+body{
+  font:'Montserrat', sans-serif;
+  padding-bottom: 50px;
+  text-align:center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:'Montserrat-Bold', sans-serif;
+}
+
+/*Headings*/
+.big-header{
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size: 3.5rem;
+  line-height:1.5;
+  color:#fff;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+.feature-title{
+  line-height:1.5;
+}
+/* Navigation Bar */
+.navbar-brand{
+  font-family:'Ubuntu';
+  font-weight:bold;
+  font-size:2.5rem;
+}
+.navbar{
+  padding:0 0 4.5rem;
+
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-family:'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+/*containers*/
+.container-fluid{
+  padding:7% 15%;
+}
+
+/*Sections*/
+.colored-section{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.white-section{
+  background-color:#fff;
+}
+
+/*title*/
+
+
+
+
+/* download buttons */
+.download{
+  margin: 5% 3% 5% 0;
+}
+/* title image */
+.iphone{
+
+  position:absolute;
+  width:60%;
+  transform:rotate(25deg);
+  right:30%;
+
+}
+/*id selectors*/
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align:left;
+}
+/*Features section*/
+.feature-icon{
+  color:#ef8172;
+  font-size: 400%;
+
+}
+.feature-icon:hover{
+  color:#ff4c68;
+}
+#features{
+  position: relative;
+  z-index: 1;
+  color:#8f8f8f;
+}
+#feature-title{
+  font-family:'Montserrat-bold', sans-serif;
+  font-size:1.5rem;
+}
+
+/*Testimonials*/
+#testimonials{
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-image{
+width:10%;
+border-radius:100%;
+margin:20px;
+}
+
+
+/*Press*/
+#press{
+  background-color:#ef8172;
+  padding-bottom:3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing{
+padding: 100px;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+
+/*Footer*/
+#footer{
+  color: #8f8f8f;
+}
+.footer-icon{
+  color:black;
+  margin-bottom: 2%;
+  margin-right:1%;
+}
+
+
+/*Mobile styles*/
+@media (max-width: 1028px){
+  #title{
+    text-align:center
+  }
+  .iphone{
+    position:static;
+    transform:rotate(0);
+  }
+}

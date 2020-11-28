@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+<% allPosts.forEach(function(post){ //loops through arrat of posts%>
+  <% let homeBody = post.postBody; //creates variable containing post%>
+  <% if(homeBody.length > 100){ //checks if post is over 1-00 characters %>
+    <%= <h2> post.title </h2> %>
+    <%= <p>post.postBody </p>%>
+    <% } else{ %>
+<%= post.title  %>
+<%= post.postBody %>
+<% }});%>
+<%- include("partials/footer") -%>

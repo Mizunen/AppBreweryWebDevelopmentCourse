@@ -1,0 +1,13 @@
+<h1>This is a level one heading created using an h1 tag</h1>
+<h2> Heading level 2 Headings should NOT be used to change text size.</h2>
+<h3> Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+<!-- self closing tags -->
+<br><!--This creates an empty line this is also a comment which doesn't show up on the website --></br>
+<table>creates a table. tables can have other tables nested within themselves. Can contain all types of data</table>
+<hr>creates a horizontal line</hr>
+<link>links to another file</link>
+<a> used to create a link. text between tags is the linking text</a>
+<style>used to change the look of html elements using CSS. Used for inline and internal css. inline css has priority over internal which has priority over external css</style>
